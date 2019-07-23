@@ -28,7 +28,7 @@ public class RegisterStepDefs extends Base {
 	public void user_enters_new_email_addrress() throws InterruptedException  {
 		pageObjectManager = new PageObjectManager(driver);
 		registerPage = pageObjectManager.getRegisterPage();
-		registerPage.CreateNewAccount("demoshop@gmail.com");
+		registerPage.CreateNewAccount("jeoshop@gmail.com");
 		System.out.println("New email id is entered by user");
 	    
 	}
